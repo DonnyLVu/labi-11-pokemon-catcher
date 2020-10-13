@@ -1,1 +1,38 @@
 /* add home page styles here */
+* {
+    box-sizing: border-box;
+}
+
+
+h2 {
+    background-color: springgreen;
+    margin: 10px;
+    padding: 10px;
+}
+
+div {
+    margin: 10px;
+    background-color: springgreen;
+    padding: 10px;
+}
+
+.image-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label > input {
+    display: none;
+}
+
+:checked + img {
+    border: 5px solid blue;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+}
