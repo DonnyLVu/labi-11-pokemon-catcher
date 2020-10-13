@@ -9,7 +9,7 @@ const cResults = document.getElementById('catch-results');
 
 
 // initialize state
-let ballsLeft = 10;
+let ballsLeft = 11;
 // let pokemonCaught = 0;
 // let encounters = 0;
 
@@ -52,7 +52,7 @@ function initialize() {
 
 function renderView() {
     initialize();
-    
+    ballsLeft--;
     console.log(ballsLeft);
     nextButton.classList.add('hidden');
     if (ballsLeft.length === 0) {
@@ -82,4 +82,4 @@ function renderView() {
 
 renderView();
 
-nextButton.addEventListener('click', renderView());
+nextButton.addEventListener('click', renderView);
