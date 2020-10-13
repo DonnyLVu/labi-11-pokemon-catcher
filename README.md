@@ -1,4 +1,4 @@
 # labi-11-pokemon-catcher
 
 
-![](miroBoard.jpg)
+![miroBoard Wireframe](/assets/miroBoard.png)
