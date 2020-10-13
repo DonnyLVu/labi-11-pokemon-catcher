@@ -74,6 +74,7 @@ function renderView() {
             let userPick = e.target.value;
             cResults.textContent = `You kidnapped ${userPick}!`;
             console.log(userPick + ballsLeft);
+            return;
         });
     }
 
