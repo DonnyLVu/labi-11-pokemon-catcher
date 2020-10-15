@@ -79,7 +79,7 @@ function initialize() {
 function renderView() {
     if (ballsLeft === 0){
         alert (`You ran out of master balls!`);
-        window.location.href = '../results/index.html';
+        window.location.href = './results/index.html';
     } else {
         ballsLeft--;
         nextButton.classList.add('hidden');
