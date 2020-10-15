@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/results.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    
     
     <title>RESULTS</title>
 </head>
@@ -20,88 +22,29 @@
         </div>
     </header>
     <main>
-        <section class="results-page">
-            <div>
-                <h2>Caught</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Encountered</th>
-                            <th>Kidnapped</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img src="">
-                                <div>Name</div>
-                            </td>
-                            <td>encounter</td>
-                            <td>Kidnapped</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="">
-                                <div>Name</div>
-                            </td>
-                            <td>encounter</td>
-                            <td>Kidnapped</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="">
-                                <div>Name</div>
-                            </td>
-                            <td>encounter</td>
-                            <td>Kidnapped</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="">
-                                <div>Name</div>
-                            </td>
-                            <td>encounter</td>
-                            <td>Kidnapped</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="">
-                                <div>Name</div>
-                            </td>
-                            <td>encounter</td>
-                            <td>Kidnapped</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="">
-                                <div>Name</div>
-                            </td>
-                            <td>encounter</td>
-                            <td>Kidnapped</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="">
-                                <div>Name</div>
-                            </td>
-                            <td>encounter</td>
-                            <td>Kidnapped</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            
-            
-
+        <section id=results>
+            <table>
+                <button>Play this again</button>
+                <thead>
+                    <tr>
+                        <th>Pokemon</th>
+                        <th>Captured</th>
+                        <th>Encountered</th>
+                    </tr>
+                </thead>
+                <tbody id="table-results"></tbody>
+            </table>
         </section>
+        <section id="chart">
+            <canvas id="myChart"></canvas>
+        </section>
+
     </main>
     <footer>
         <div class="copy gutter-right">&copy;DonnyLVu Inc.</div>
     </footer>
 
-    <!-- <script type="module" src="/app.js"></script> -->
+    <script type="module" src="/results/results.js"></script>
 </body>
 
 </html>

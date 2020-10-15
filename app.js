@@ -110,6 +110,7 @@ function renderView() {
 }
 
 
+
 renderView();
 
 nextButton.addEventListener('click', renderView);
