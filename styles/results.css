@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.WELCOME {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    
+}
+.WELCOME {
+    background-color: springgreen;
+    margin: 10px;
+    padding: 10px;
+}
+
+.threeHead{
+    background-color: springgreen;
+    margin: 10px;
+    padding: 10px;
+}
